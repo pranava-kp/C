@@ -1,13 +1,12 @@
 #include<stdio.h>
-// #include<iostream.h>
 #include<stdlib.h>
+struct student
+{
+    char name[20];
+};
 int main()
 {
-    int *p=malloc(100);
-    int n=100;
-    while(1)
-    {
-        p=realloc(p,sizeof(int)*n);
-        n+=100;
-    }
+   struct student s[2]={"john","doe"};
+   printf("%s\n",s[0].name);
+   printf("%s\n",s[1].name);
 }
