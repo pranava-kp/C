@@ -1,2 +1,5 @@
 *.exe
 tempCodeRunnerFile.c
+tempCodeRunnerFile.cpp
+.vscode\
+.vscode/
