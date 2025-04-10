@@ -81,7 +81,7 @@ NODE delete_rear(NODE first)
 }
 void display(NODE first)
 {
-    NODE cur=first;
+    const NODE cur=first;
     if(cur==NULL)
     {
         printf("Empty linked list\n");
